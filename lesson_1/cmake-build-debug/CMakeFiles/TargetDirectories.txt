@@ -1,0 +1,3 @@
+/Users/user/Documents/STM32/GB_1/Microcontrollers_Introductory_course/lesson_1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/user/Documents/STM32/GB_1/Microcontrollers_Introductory_course/lesson_1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/user/Documents/STM32/GB_1/Microcontrollers_Introductory_course/lesson_1/cmake-build-debug/CMakeFiles/lesson_1.elf.dir

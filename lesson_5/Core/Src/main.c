@@ -97,7 +97,7 @@ int main(void)
   MX_SPI3_Init();
   /* USER CODE BEGIN 2 */
 
-
+  HAL_SPI_Receive_IT(&hspi3, buffRX, 1);
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -108,10 +108,11 @@ int main(void)
 	  /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-      buffTX[0] = 0b10101010;
-      HAL_SPI_Receive_IT(&hspi3, buffRX, 1);
-      HAL_SPI_Transmit(&hspi2, buffTX, 1, HAL_MAX_DELAY);
-      HAL_Delay(1000);
+      //buffTX[0] = 0b10101010;
+
+
+      // HAL_SPI_Transmit(&hspi2, buffTX, 1, HAL_MAX_DELAY);
+       HAL_Delay(100);
   }
   /* USER CODE END 3 */
 }
@@ -329,6 +330,7 @@ void HAL_SPI_RxCpltCallback(SPI_HandleTypeDef * hspi)
 {
 	if (hspi==&hspi3){
 		HAL_GPIO_TogglePin(LD2_GPIO_Port, LD2_Pin);
+		HAL_SPI_Receive_IT(&hspi3, buffRX, 1);
 	}
 }
 /* USER CODE END 4 */

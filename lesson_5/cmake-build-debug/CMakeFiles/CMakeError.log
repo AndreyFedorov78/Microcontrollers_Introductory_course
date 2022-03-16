@@ -1,0 +1,364 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/user/Documents/STM32/GB_1/Microcontrollers_Introductory_course/lesson_5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_87bc1 && [1/2] Building C object CMakeFiles/cmTC_87bc1.dir/CMakeCCompilerABI.c.o
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
+Target: arm-none-eabi
+Configured with: /tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native --libexecdir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/lib --infodir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_87bc1.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -iprefix /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /Applications/ARM/bin/../arm-none-eabi -D__USES_INITFINI__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_87bc1.dir/CMakeCCompilerABI.c.o -version -o /var/folders/fc/0ymy83ss365d44qk5k945zbh0000gq/T//ccBOaO7m.s
+GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+	compiled by GNU C version 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.17), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/Applications/ARM/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring duplicate directory "/Applications/ARM/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+ignoring duplicate directory "/Applications/ARM/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/include
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include
+End of search list.
+GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+	compiled by GNU C version 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.17), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 733728c033f099ebc66962b91852e3eb
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_87bc1.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_87bc1.dir/CMakeCCompilerABI.c.o /var/folders/fc/0ymy83ss365d44qk5k945zbh0000gq/T//ccBOaO7m.s
+GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
+COMPILER_PATH=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/:/Applications/ARM/bin/../lib/gcc/:/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/:/Applications/ARM/bin/../lib/gcc/:/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/Applications/ARM/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_87bc1.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+[2/2] Linking C executable cmTC_87bc1
+FAILED: cmTC_87bc1 
+: && /usr/local/bin/arm-none-eabi-gcc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_87bc1.dir/CMakeCCompilerABI.c.o -o cmTC_87bc1   && :
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
+COLLECT_LTO_WRAPPER=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper
+Target: arm-none-eabi
+Configured with: /tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native --libexecdir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/lib --infodir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+COMPILER_PATH=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/:/Applications/ARM/bin/../lib/gcc/:/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/:/Applications/ARM/bin/../lib/gcc/:/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/Applications/ARM/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'cmTC_87bc1' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/fc/0ymy83ss365d44qk5k945zbh0000gq/T//ccWZkL57.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/Applications/ARM/bin/../arm-none-eabi -X -o cmTC_87bc1 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -L/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1 -L/Applications/ARM/bin/../lib/gcc -L/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -L/Applications/ARM/bin/../arm-none-eabi/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_87bc1.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
+collect2 version 10.3.1 20210824 (release)
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld -plugin /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/fc/0ymy83ss365d44qk5k945zbh0000gq/T//ccWZkL57.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/Applications/ARM/bin/../arm-none-eabi -X -o cmTC_87bc1 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -L/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1 -L/Applications/ARM/bin/../lib/gcc -L/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -L/Applications/ARM/bin/../arm-none-eabi/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_87bc1.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: Error: unable to disambiguate: -search_paths_first (did you mean --search_paths_first ?)
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/user/Documents/STM32/GB_1/Microcontrollers_Introductory_course/lesson_5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_7abeb && [1/2] Building C object CMakeFiles/cmTC_7abeb.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_7abeb
+FAILED: cmTC_7abeb 
+: && /usr/local/bin/arm-none-eabi-gcc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_7abeb.dir/testCCompiler.c.o -o cmTC_7abeb   && :
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: Error: unable to disambiguate: -search_paths_first (did you mean --search_paths_first ?)
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/user/Documents/STM32/GB_1/Microcontrollers_Introductory_course/lesson_5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d9d18 && [1/2] Building C object CMakeFiles/cmTC_d9d18.dir/CMakeCCompilerABI.c.o
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
+Target: arm-none-eabi
+Configured with: /tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native --libexecdir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/lib --infodir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_d9d18.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -iprefix /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /Applications/ARM/bin/../arm-none-eabi -D__USES_INITFINI__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_d9d18.dir/CMakeCCompilerABI.c.o -version -o /var/folders/fc/0ymy83ss365d44qk5k945zbh0000gq/T//ccwbAkxO.s
+GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+	compiled by GNU C version 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.17), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/Applications/ARM/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring duplicate directory "/Applications/ARM/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+ignoring duplicate directory "/Applications/ARM/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/include
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include
+End of search list.
+GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+	compiled by GNU C version 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.17), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 733728c033f099ebc66962b91852e3eb
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_d9d18.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_d9d18.dir/CMakeCCompilerABI.c.o /var/folders/fc/0ymy83ss365d44qk5k945zbh0000gq/T//ccwbAkxO.s
+GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
+COMPILER_PATH=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/:/Applications/ARM/bin/../lib/gcc/:/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/:/Applications/ARM/bin/../lib/gcc/:/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/Applications/ARM/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_d9d18.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+[2/2] Linking C executable cmTC_d9d18
+FAILED: cmTC_d9d18 
+: && /usr/local/bin/arm-none-eabi-gcc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_d9d18.dir/CMakeCCompilerABI.c.o -o cmTC_d9d18   && :
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
+COLLECT_LTO_WRAPPER=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper
+Target: arm-none-eabi
+Configured with: /tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native --libexecdir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/lib --infodir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+COMPILER_PATH=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/:/Applications/ARM/bin/../lib/gcc/:/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/:/Applications/ARM/bin/../lib/gcc/:/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/Applications/ARM/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'cmTC_d9d18' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/fc/0ymy83ss365d44qk5k945zbh0000gq/T//ccofxIzu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/Applications/ARM/bin/../arm-none-eabi -X -o cmTC_d9d18 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -L/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1 -L/Applications/ARM/bin/../lib/gcc -L/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -L/Applications/ARM/bin/../arm-none-eabi/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d9d18.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
+collect2 version 10.3.1 20210824 (release)
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld -plugin /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/fc/0ymy83ss365d44qk5k945zbh0000gq/T//ccofxIzu.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/Applications/ARM/bin/../arm-none-eabi -X -o cmTC_d9d18 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -L/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1 -L/Applications/ARM/bin/../lib/gcc -L/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -L/Applications/ARM/bin/../arm-none-eabi/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_d9d18.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: Error: unable to disambiguate: -search_paths_first (did you mean --search_paths_first ?)
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/user/Documents/STM32/GB_1/Microcontrollers_Introductory_course/lesson_5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_d6684 && [1/2] Building C object CMakeFiles/cmTC_d6684.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_d6684
+FAILED: cmTC_d6684 
+: && /usr/local/bin/arm-none-eabi-gcc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_d6684.dir/testCCompiler.c.o -o cmTC_d6684   && :
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: Error: unable to disambiguate: -search_paths_first (did you mean --search_paths_first ?)
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" failed.
+Compiler: /usr/local/bin/arm-none-eabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/user/Documents/STM32/GB_1/Microcontrollers_Introductory_course/lesson_5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8b5fd && [1/2] Building C object CMakeFiles/cmTC_8b5fd.dir/CMakeCCompilerABI.c.o
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
+Target: arm-none-eabi
+Configured with: /tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native --libexecdir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/lib --infodir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_8b5fd.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -iprefix /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /Applications/ARM/bin/../arm-none-eabi -D__USES_INITFINI__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_8b5fd.dir/CMakeCCompilerABI.c.o -version -o /var/folders/fc/0ymy83ss365d44qk5k945zbh0000gq/T//cc0w7tWG.s
+GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+	compiled by GNU C version 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.17), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/Applications/ARM/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring duplicate directory "/Applications/ARM/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+ignoring duplicate directory "/Applications/ARM/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/include
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include
+End of search list.
+GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+	compiled by GNU C version 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.17), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 733728c033f099ebc66962b91852e3eb
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_8b5fd.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_8b5fd.dir/CMakeCCompilerABI.c.o /var/folders/fc/0ymy83ss365d44qk5k945zbh0000gq/T//cc0w7tWG.s
+GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
+COMPILER_PATH=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/:/Applications/ARM/bin/../lib/gcc/:/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/:/Applications/ARM/bin/../lib/gcc/:/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/Applications/ARM/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_8b5fd.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+[2/2] Linking C executable cmTC_8b5fd
+FAILED: cmTC_8b5fd 
+: && /usr/local/bin/arm-none-eabi-gcc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_8b5fd.dir/CMakeCCompilerABI.c.o -o cmTC_8b5fd   && :
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
+COLLECT_LTO_WRAPPER=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper
+Target: arm-none-eabi
+Configured with: /tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native --libexecdir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/lib --infodir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+COMPILER_PATH=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/:/Applications/ARM/bin/../lib/gcc/:/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/:/Applications/ARM/bin/../lib/gcc/:/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/Applications/ARM/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'cmTC_8b5fd' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/fc/0ymy83ss365d44qk5k945zbh0000gq/T//ccezC3NB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/Applications/ARM/bin/../arm-none-eabi -X -o cmTC_8b5fd /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -L/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1 -L/Applications/ARM/bin/../lib/gcc -L/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -L/Applications/ARM/bin/../arm-none-eabi/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8b5fd.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
+collect2 version 10.3.1 20210824 (release)
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld -plugin /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/fc/0ymy83ss365d44qk5k945zbh0000gq/T//ccezC3NB.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/Applications/ARM/bin/../arm-none-eabi -X -o cmTC_8b5fd /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -L/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1 -L/Applications/ARM/bin/../lib/gcc -L/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -L/Applications/ARM/bin/../arm-none-eabi/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_8b5fd.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: Error: unable to disambiguate: -search_paths_first (did you mean --search_paths_first ?)
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/user/Documents/STM32/GB_1/Microcontrollers_Introductory_course/lesson_5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_e7043 && [1/2] Building C object CMakeFiles/cmTC_e7043.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_e7043
+FAILED: cmTC_e7043 
+: && /usr/local/bin/arm-none-eabi-gcc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_e7043.dir/testCCompiler.c.o -o cmTC_e7043   && :
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: Error: unable to disambiguate: -search_paths_first (did you mean --search_paths_first ?)
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/local/bin/arm-none-eabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+1
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/libc.a(lib_a-exit.o): in function `exit':
+exit.c:(.text.exit+0x2c): undefined reference to `_exit'
+collect2: error: ld returned 1 exit status
+
+
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: /Users/user/Documents/STM32/GB_1/Microcontrollers_Introductory_course/lesson_5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_4f588 && [1/2] Building C object CMakeFiles/cmTC_4f588.dir/CMakeCCompilerABI.c.o
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
+Target: arm-none-eabi
+Configured with: /tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native --libexecdir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/lib --infodir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_4f588.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/cc1 -quiet -v -iprefix /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/ -isysroot /Applications/ARM/bin/../arm-none-eabi -D__USES_INITFINI__ -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcpu=arm7tdmi -mfloat-abi=soft -marm -mlibarch=armv4t -march=armv4t -auxbase-strip CMakeFiles/cmTC_4f588.dir/CMakeCCompilerABI.c.o -version -o /var/folders/fc/0ymy83ss365d44qk5k945zbh0000gq/T//ccTaeETX.s
+GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+	compiled by GNU C version 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.17), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring duplicate directory "/Applications/ARM/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include"
+ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/local/include"
+ignoring duplicate directory "/Applications/ARM/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/include-fixed"
+ignoring duplicate directory "/Applications/ARM/bin/../lib/gcc/../../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/include
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/include-fixed
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/include
+ /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk/usr/include
+End of search list.
+GNU C17 (GNU Arm Embedded Toolchain 10.3-2021.10) version 10.3.1 20210824 (release) (arm-none-eabi)
+	compiled by GNU C version 4.2.1 Compatible Apple LLVM 11.0.0 (clang-1100.0.33.17), GMP version 6.1.0, MPFR version 3.1.4, MPC version 1.0.3, isl version isl-0.18-GMP
+
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 733728c033f099ebc66962b91852e3eb
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_4f588.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/as -v -march=armv4t -mfloat-abi=soft -meabi=5 -o CMakeFiles/cmTC_4f588.dir/CMakeCCompilerABI.c.o /var/folders/fc/0ymy83ss365d44qk5k945zbh0000gq/T//ccTaeETX.s
+GNU assembler version 2.36.1 (arm-none-eabi) using BFD version (GNU Arm Embedded Toolchain 10.3-2021.10) 2.36.1.20210621
+COMPILER_PATH=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/:/Applications/ARM/bin/../lib/gcc/:/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/:/Applications/ARM/bin/../lib/gcc/:/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/Applications/ARM/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'CMakeFiles/cmTC_4f588.dir/CMakeCCompilerABI.c.o' '-c' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+[2/2] Linking C executable cmTC_4f588
+FAILED: cmTC_4f588 
+: && /usr/local/bin/arm-none-eabi-gcc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names -v -Wl,-v CMakeFiles/cmTC_4f588.dir/CMakeCCompilerABI.c.o -o cmTC_4f588   && :
+Using built-in specs.
+COLLECT_GCC=/usr/local/bin/arm-none-eabi-gcc
+COLLECT_LTO_WRAPPER=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper
+Target: arm-none-eabi
+Configured with: /tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/src/gcc/configure --target=arm-none-eabi --prefix=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native --libexecdir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/lib --infodir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/info --mandir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/man --htmldir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/html --pdfdir=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/share/doc/gcc-arm-none-eabi/pdf --enable-languages=c,c++ --enable-plugins --disable-decimal-float --disable-libffi --disable-libgomp --disable-libmudflap --disable-libquadmath --disable-libssp --disable-libstdcxx-pch --disable-nls --disable-shared --disable-threads --disable-tls --with-gnu-as --with-gnu-ld --with-newlib --with-headers=yes --with-python-dir=share/gcc-arm-none-eabi --with-sysroot=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/install-native/arm-none-eabi --build=x86_64-apple-darwin10 --host=x86_64-apple-darwin10 --with-gmp=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-mpfr=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-mpc=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-isl=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-libelf=/tmp/jenkins-GCC-10-pipeline-338_20211018_1634516195/build-native/host-libs/usr --with-host-libstdcxx='-static-libgcc -Wl,-lstdc++ -lm' --with-pkgversion='GNU Arm Embedded Toolchain 10.3-2021.10' --with-multilib-list=rmprofile,aprofile
+Thread model: single
+Supported LTO compression algorithms: zlib
+gcc version 10.3.1 20210824 (release) (GNU Arm Embedded Toolchain 10.3-2021.10) 
+COMPILER_PATH=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/:/Applications/ARM/bin/../lib/gcc/:/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/
+LIBRARY_PATH=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/:/Applications/ARM/bin/../lib/gcc/:/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/:/Applications/ARM/bin/../arm-none-eabi/lib/
+COLLECT_GCC_OPTIONS='-isysroot' '/Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk' '-v' '-o' 'cmTC_4f588' '-mcpu=arm7tdmi' '-mfloat-abi=soft' '-marm' '-mlibarch=armv4t' '-march=armv4t'
+ /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/collect2 -plugin /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/fc/0ymy83ss365d44qk5k945zbh0000gq/T//ccBkohtz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/Applications/ARM/bin/../arm-none-eabi -X -o cmTC_4f588 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -L/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1 -L/Applications/ARM/bin/../lib/gcc -L/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -L/Applications/ARM/bin/../arm-none-eabi/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4f588.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
+collect2 version 10.3.1 20210824 (release)
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld -plugin /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/liblto_plugin.so -plugin-opt=/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/lto-wrapper -plugin-opt=-fresolution=/var/folders/fc/0ymy83ss365d44qk5k945zbh0000gq/T//ccBkohtz.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc --sysroot=/Applications/ARM/bin/../arm-none-eabi -X -o cmTC_4f588 /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crti.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtbegin.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/crt0.o -L/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1 -L/Applications/ARM/bin/../lib/gcc -L/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib -L/Applications/ARM/bin/../arm-none-eabi/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_4f588.dir/CMakeCCompilerABI.c.o --start-group -lgcc -lc --end-group /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtend.o /Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/crtn.o
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: Error: unable to disambiguate: -search_paths_first (did you mean --search_paths_first ?)
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
+
+Determining if the C compiler works failed with the following output:
+Change Dir: /Users/user/Documents/STM32/GB_1/Microcontrollers_Introductory_course/lesson_5/cmake-build-debug/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/Applications/CLion.app/Contents/bin/ninja/mac/ninja cmTC_8fb7f && [1/2] Building C object CMakeFiles/cmTC_8fb7f.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_8fb7f
+FAILED: cmTC_8fb7f 
+: && /usr/local/bin/arm-none-eabi-gcc -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX10.15.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/cmTC_8fb7f.dir/testCCompiler.c.o -o cmTC_8fb7f   && :
+/Applications/ARM/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/bin/ld: Error: unable to disambiguate: -search_paths_first (did you mean --search_paths_first ?)
+collect2: error: ld returned 1 exit status
+ninja: build stopped: subcommand failed.
+
+
+
